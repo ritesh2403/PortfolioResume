@@ -37,7 +37,7 @@ const categories = [
       { name: "Redis", level: 100 },
       { name: "Kafka", level: 100 },
       { name: "RabbitMQ", level: 100 },
-      { name: "Elasticsearch", level: 100 },
+      
     ],
   },
   {
