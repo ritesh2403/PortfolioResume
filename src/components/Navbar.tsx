@@ -8,6 +8,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("");
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { theme, toggle } = useTheme();
 
   useEffect(() => {
     const onScroll = () => {
