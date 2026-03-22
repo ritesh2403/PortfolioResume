@@ -89,6 +89,13 @@ const Navbar = () => {
                 </a>
               );
             })}
+            <button
+              onClick={toggle}
+              className="p-2 rounded-sm text-text-secondary hover:text-foreground transition-colors duration-200 active:scale-[0.95]"
+              aria-label="Toggle theme"
+            >
+              {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+            </button>
             <a
               href="/Ritesh_Ghorui_Resume.pdf"
               download
