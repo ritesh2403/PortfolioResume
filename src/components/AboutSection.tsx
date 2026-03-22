@@ -63,7 +63,7 @@ const AboutSection = () => {
             <div>
               <p className="label-uppercase mb-4 text-amber">About</p>
               <h2 className="font-display text-3xl md:text-4xl font-bold tracking-tight leading-tight mb-6">
-                Building systems that move<br className="hidden md:block" /> money at national scale
+                Building 0-to-1 products that solve<br className="hidden md:block" /> real problems on the factory floor
               </h2>
             </div>
 
