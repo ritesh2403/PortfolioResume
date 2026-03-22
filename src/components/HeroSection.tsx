@@ -2,7 +2,7 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const stats = [
   { number: "₹7T", label: "Annual TPV Processed", suffix: "/yr" },
-  { number: "6.7", label: "Years of Engineering", suffix: "+" },
+  { number: "7", label: "Years of Engineering", suffix: "+" },
   { number: "20", label: "Engineers Led", suffix: "" },
   { number: "99.9", label: "Uptime SLA Delivered", suffix: "%" },
 ];
@@ -25,7 +25,7 @@ const HeroSection = () => {
           <span className="text-gradient-amber">Ghorui</span>
         </h1>
         <p className="text-text-secondary text-lg md:text-xl max-w-2xl leading-relaxed mb-16">
-          Solution Architect & Technical Lead building enterprise-scale systems. 
+          Head of Products & Projects building enterprise-scale systems. 
           From payment gateways processing trillions to multitenant SaaS platforms — 
           engineering that operates at India's infrastructure layer.
         </p>
