@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Download, Menu, X } from "lucide-react";
+import { Download, Menu, X, Sun, Moon } from "lucide-react";
+import { useTheme } from "@/hooks/use-theme";
 
 const sections = ["about", "skills", "experience", "projects", "contact"];
 
