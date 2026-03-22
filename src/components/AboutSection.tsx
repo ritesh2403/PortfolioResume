@@ -1,5 +1,5 @@
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
-import avatarImg from "@/assets/avatar-placeholder.png";
+import avatarImg from "@/assets/avatar-placeholder.jpg";
 
 const philosophies = [
   {
