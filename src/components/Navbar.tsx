@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Download, Menu, X } from "lucide-react";
+import { Download, Menu, X, Sun, Moon } from "lucide-react";
+import { useTheme } from "@/hooks/use-theme";
 
 const sections = ["about", "skills", "experience", "projects", "contact"];
 
@@ -7,6 +8,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("");
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { theme, toggle } = useTheme();
 
   useEffect(() => {
     const onScroll = () => {
@@ -87,6 +89,13 @@ const Navbar = () => {
                 </a>
               );
             })}
+            <button
+              onClick={toggle}
+              className="p-2 rounded-sm text-text-secondary hover:text-foreground transition-colors duration-200 active:scale-[0.95]"
+              aria-label="Toggle theme"
+            >
+              {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+            </button>
             <a
               href="/Ritesh_Ghorui_Resume.pdf"
               download
@@ -146,11 +155,20 @@ const Navbar = () => {
             );
           })}
 
+          <button
+            onClick={toggle}
+            className="p-3 rounded-sm surface-card text-text-secondary hover:text-foreground transition-colors duration-200 active:scale-[0.95]"
+            aria-label="Toggle theme"
+            style={{ transitionDelay: mobileOpen ? `${links.length * 60}ms` : "0ms" }}
+          >
+            {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+          </button>
+
           <a
             href="/Ritesh_Ghorui_Resume.pdf"
             download
-            className="inline-flex items-center gap-2 mt-4 text-sm font-semibold tracking-wide uppercase px-6 py-3 bg-amber text-primary-foreground rounded-sm hover:bg-amber-hover transition-colors duration-200 active:scale-[0.97]"
-            style={{ transitionDelay: mobileOpen ? `${links.length * 60}ms` : "0ms" }}
+            className="inline-flex items-center gap-2 mt-2 text-sm font-semibold tracking-wide uppercase px-6 py-3 bg-amber text-primary-foreground rounded-sm hover:bg-amber-hover transition-colors duration-200 active:scale-[0.97]"
+            style={{ transitionDelay: mobileOpen ? `${(links.length + 1) * 60}ms` : "0ms" }}
           >
             <Download className="w-4 h-4" />
             Download Resume
