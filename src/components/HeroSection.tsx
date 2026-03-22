@@ -11,7 +11,7 @@ const HeroSection = () => {
   const { ref, isVisible } = useScrollReveal(0.1);
 
   return (
-    <section ref={ref} className="min-h-screen flex flex-col justify-center px-6 md:px-16 lg:px-24 pt-24 pb-16 relative overflow-hidden">
+    <section ref={ref} className="min-h-screen flex flex-col justify-center px-6 md:px-16 lg:px-24 pt-24 pb-24 md:pb-32 relative overflow-hidden">
       {/* Subtle grid pattern */}
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: `linear-gradient(hsl(var(--text-secondary)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--text-secondary)) 1px, transparent 1px)`,
@@ -43,7 +43,7 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-text-secondary">
+      <div className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-text-secondary">
         <span className="text-xs tracking-widest uppercase">Scroll</span>
         <div className="w-px h-8 bg-text-secondary/30 animate-pulse" />
       </div>
