@@ -97,8 +97,8 @@ const Navbar = () => {
               {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
             </button>
             <a
-              href="/Ritesh_Ghorui_Resume.pdf"
-              download
+              href="https://drive.google.com/file/d/1SNdGaW27Z4ih1GSHPvfHQpjglarMFZgJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer"
+             
               className="inline-flex items-center gap-1.5 text-xs font-semibold tracking-wide uppercase px-4 py-2 bg-amber text-primary-foreground rounded-sm hover:bg-amber-hover transition-colors duration-200 active:scale-[0.97]"
             >
               <Download className="w-3.5 h-3.5" />
@@ -165,8 +165,8 @@ const Navbar = () => {
           </button>
 
           <a
-            href="/Ritesh_Ghorui_Resume.pdf"
-            download
+            href="https://drive.google.com/file/d/1SNdGaW27Z4ih1GSHPvfHQpjglarMFZgJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer"
+           
             className="inline-flex items-center gap-2 mt-2 text-sm font-semibold tracking-wide uppercase px-6 py-3 bg-amber text-primary-foreground rounded-sm hover:bg-amber-hover transition-colors duration-200 active:scale-[0.97]"
             style={{ transitionDelay: mobileOpen ? `${(links.length + 1) * 60}ms` : "0ms" }}
           >
