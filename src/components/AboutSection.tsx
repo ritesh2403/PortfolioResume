@@ -54,7 +54,7 @@ const whatIBring = [
 const highlights = [
   { label: "Location", value: "Mumbai, India" },
   { label: "Current Role", value: "Head of Products & Projects" },
-  { label: "Domains", value: "Supply Chain · Fintech · Manufacturing · Payments" },
+  { label: "Domains", value: "Supply Chain/Logistics · Fintech · Manufacturing · Payments" },
   { label: "Languages", value: "English · Hindi · Marathi · Bengali" },
 ];
 
