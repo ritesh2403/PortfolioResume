@@ -3,7 +3,7 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 const stats = [
   { number: "₹7T", label: "Annual TPV Processed", suffix: "/yr" },
   { number: "7", label: "Years of Engineering", suffix: "+" },
-  { number: "20", label: "Engineers Led", suffix: "" },
+  { number: "50+", label: "Engineers Led", suffix: "" },
   { number: "99.9", label: "Uptime SLA Delivered", suffix: "%" },
 ];
 
