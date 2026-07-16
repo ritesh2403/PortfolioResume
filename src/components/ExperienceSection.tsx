@@ -13,8 +13,9 @@ const experiences = [
       "Built event-driven microservices on Azure SQL Hyperscale with Named Replica read/write routing",
       "Drove 50% infrastructure cost reduction through cloud-native architectural optimization",
       "Established full observability: Prometheus, Loki, Grafana Tempo, Micrometer distributed tracing",
+      "Built AI chatbot for supply & logistics Mes Platform"
     ],
-    stack: "Java 21 · Spring Boot · React 19 · Azure · Kafka · Redis · Docker · K8s",
+    stack: "Java 21 · Spring Boot · React 19 · Azure · Kafka · Redis · Docker · K8s  · Python · AI Chatbot · Langchain/Langgraph ·Agentic AI",
   },
   {
     role: "Java Technical Lead",
