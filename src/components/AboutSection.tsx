@@ -12,7 +12,7 @@ const impactMetrics = [
   },
   {
     icon: Users,
-    value: "20",
+    value: "50",
     suffix: "+",
     label: "Engineers Led",
     context: "Cross-functional Agile teams",
@@ -47,7 +47,7 @@ const whatIBring = [
   {
     title: "Team & Stakeholder Leader",
     description:
-      "Led 20 engineers across sprints, facilitated client discovery, translated business needs into sprint-ready specs, and drove 50% infrastructure cost reduction.",
+      "Led 50+ engineers across sprints, facilitated client discovery, translated business needs into sprint-ready specs, and drove 50% infrastructure cost reduction.",
   },
 ];
 
@@ -113,7 +113,7 @@ const AboutSection = () => {
                   At <span className="text-foreground font-medium">Wrxflo</span>, I built a complete multitenant Supply Chain
                   SaaS from scratch — 10 enterprise tenants onboarded, 4 microservices, event-driven
                   architecture, real-time GPS logistics tracking, and factory floor digitisation.
-                  I own everything: architecture decisions, team of 20 engineers, client relationships,
+                  I own everything: architecture decisions, team of 50 engineers, client relationships,
                   and production deployments.
                 </p>
                 <p>
