@@ -5,7 +5,7 @@ const experiences = [
     role: "Head of Products & Projects",
     company: "Wrxflo",
     period: "Sep 2023 — Present",
-    duration: "2 yrs 6 mos",
+    duration: "3 yrs 1 month",
     location: "Mumbai, India",
     highlights: [
       "Architected 0-to-1 multitenant Supply Chain SaaS — 10 enterprise tenants, 99.9% uptime SLA",
