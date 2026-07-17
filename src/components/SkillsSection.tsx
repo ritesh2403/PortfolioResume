@@ -1,5 +1,5 @@
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
-import { Code2, Database, Cloud, Layers, BarChart3, Users } from "lucide-react";
+import { Code2, Database, Cloud, Layers, BarChart3, Users,Brain  } from "lucide-react";
 
 const categories = [
   {
