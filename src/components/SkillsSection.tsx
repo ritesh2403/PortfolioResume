@@ -13,7 +13,7 @@ const categories = [
       { name: "Python", level: 100 },
       { name: "React 19", level: 100 },
       { name: "Angular", level: 100 },
-      { name: "Flutter / React Native", level: 100 }
+      { name: "Flutter / React Native", level: 100 },
       { name: "TypeScript", level: 100 },
     ],
   },
