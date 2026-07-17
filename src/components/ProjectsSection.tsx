@@ -19,7 +19,7 @@ const projects: Project[] = [
     type: "0 → 1 Product Build",
     impact: "10 tenants · 99.9% SLA",
     description:
-      "End-to-end multitenant SaaS with Auth, Digital Factory, Logistics, and Warehouse microservices. Redis sticky write routing, feature-flag RBAC, Azure SQL Hyperscale with Named Replicas for read/write separation.",
+      "End-to-end multitenant SaaS with Auth, Digital Factory,Supply chain & Logistics, Integration Services and Warehouse/Inventory microservices. Redis sticky write routing, feature-flag RBAC, Azure SQL Hyperscale with Named Replicas for read/write separation.",
     stack: ["Java 21", "Spring Boot", "React 19", "Azure SQL", "Redis", "Kubernetes"],
     company: "wrxflo",
   },
