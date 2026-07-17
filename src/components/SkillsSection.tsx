@@ -1,5 +1,5 @@
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
-import { Code2, Database, Cloud, Layers, BarChart3, Users,Brain  } from "lucide-react";
+import { Code2, Database, Cloud, Layers, BarChart3, Users,Brain,Cpu  } from "lucide-react";
 
 const categories = [
   {
@@ -13,6 +13,7 @@ const categories = [
       { name: "Python", level: 100 },
       { name: "React 19", level: 100 },
       { name: "Angular", level: 100 },
+      { name: "Flutter / React Native", level: 100 }
       { name: "TypeScript", level: 100 },
     ],
   },
@@ -50,7 +51,9 @@ const categories = [
       { name: "Kubernetes", level: 100 },
       { name: "Azure", level: 100 },
       { name: "AWS", level: 100 },
+      { name: "GCP", level: 100 },
       { name: "Jenkins CI/CD", level: 100 },
+      { name: "GitHub Actions", level: 100 },
       { name: "IBM Code Engine", level: 100 },
     ],
   },
@@ -76,6 +79,19 @@ const categories = [
       { name: "RAG Pipelines", level: 100 },
       { name: "Claude API / Anthropic", level: 100 },
       { name: "AI Agent Design", level: 100 },
+      { name: "MLOps / Model Deployment", level: 100 },
+    ],
+  },
+    {
+    icon: Cpu,
+    title: "IoT & Connectivity",
+    skills: [
+      { name: "IoT Asset Tracking", level: 100 },
+      { name: "Real-time Telemetry", level: 100 },
+      { name: "Geospatial / Routing Algorithms", level: 100 },
+      { name: "MQTT / CoAP", level: 100 },
+      { name: "ETA Prediction Pipelines", level: 100 },
+      { name: "Fleet Optimization", level: 100 },
     ],
   },
   {
