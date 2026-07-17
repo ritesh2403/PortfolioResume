@@ -111,7 +111,7 @@ const AboutSection = () => {
                 </p>
                 <p>
                   At <span className="text-foreground font-medium">Wrxflo</span>, I built a complete multitenant Supply Chain
-                  SaaS from scratch — 10 enterprise tenants onboarded, 4 microservices, event-driven
+                  SaaS from scratch — 10 enterprise tenants onboarded, 10 microservices, event-driven
                   architecture, real-time GPS logistics tracking, and factory floor digitisation.
                   I own everything: architecture decisions, team of 50 engineers, client relationships,
                   and production deployments.
