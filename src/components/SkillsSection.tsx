@@ -83,7 +83,7 @@ const categories = [
     title: "Leadership & Process",
     skills: [
       { name: "Agile / Scrum", level: 100 },
-      { name: "Team Leadership (20+)", level: 100 },
+      { name: "Team Leadership (50+)", level: 100 },
       { name: "Stakeholder Mgmt", level: 100 },
       { name: "Product Roadmap", level: 100 },
       { name: "Technical Mentorship", level: 100 },
