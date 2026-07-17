@@ -19,7 +19,7 @@ const impactMetrics = [
   },
   {
     icon: Briefcase,
-    value: "10",
+    value: "25+",
     suffix: "",
     label: "Enterprise Tenants",
     context: "Multitenant SaaS platform",
@@ -111,8 +111,8 @@ const AboutSection = () => {
                 </p>
                 <p>
                   At <span className="text-foreground font-medium">Wrxflo</span>, I built a complete multitenant Supply Chain
-                  SaaS from scratch — 10 enterprise tenants onboarded, 10 microservices, event-driven
-                  architecture, real-time GPS logistics tracking, and factory floor digitisation.
+                  SaaS from scratch — 25+ enterprise tenants onboarded, 10 microservices, event-driven
+                  architecture, real-time GPS logistics tracking,Integration Modules,Orders Auto-Scheduling Engine and factory floor digitisation.
                   I own everything: architecture decisions, team of 50 engineers, client relationships,
                   and production deployments.
                 </p>
