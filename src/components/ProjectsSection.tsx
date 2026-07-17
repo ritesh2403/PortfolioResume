@@ -24,6 +24,17 @@ const projects: Project[] = [
     company: "wrxflo",
   },
   {
+  title: "WrxMes AI Chatbot",
+  client: "Wrxflo",
+  type: "AI / LLM Product",
+  impact: "Multi-tenant · RAG · SSE Streaming",
+  description:
+    "Context-aware AI assistant embedded in the MES platform. Queries live shop-order and job data from SQL Server to answer tenant-specific questions in real time. RAG pipeline using Azure OpenAI embeddings (text-embedding-3-small) + Azure SQL native VECTOR cosine search for app documentation. SSE streaming responses, per-tenant JWT auth, aggressive history compression to minimise token spend, and full token-cost accounting per conversation. Drawings retrieval from Azure Blob Storage on natural-language intent detection.",
+  stack: ["Python", "Flask", "Azure OpenAI", "RAG", "SSE", "SQL Server", "Azure Blob", "JWT"],
+  company: "wrxflo",
+},
+
+{
     title: "ATE — Armstrong Timber Engineering",
     client: "UK Manufacturer",
     type: "Digital Transformation",
