@@ -8,7 +8,7 @@ const experiences = [
     duration: "3 yrs 1 month",
     location: "Mumbai, India",
     highlights: [
-      "Architected 0-to-1 multitenant Supply Chain SaaS — 10 enterprise tenants, 99.9% uptime SLA",
+      "Architected 0-to-1 multitenant Supply Chain SaaS — 25+ enterprise tenants, 99.9% uptime SLA",
       "Led 50+ engineers across Agile/Scrum, owning product roadmap from discovery to delivery",
       "Built event-driven microservices on Azure SQL Hyperscale with Named Replica read/write routing",
       "Drove 50% infrastructure cost reduction through cloud-native architectural optimization",
