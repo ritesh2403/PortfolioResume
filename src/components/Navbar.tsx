@@ -166,7 +166,7 @@ const Navbar = () => {
           {/* href="https://drive.google.com/file/d/1SNdGaW27Z4ih1GSHPvfHQpjglarMFZgJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer"     */}
           <a
           
-            href="https://drive.google.com/drive/u/0/folders/1-YgJWt8mwfIF5u5d3hW9gJ6bg8cGnc8v/view?usp=drive_link" target="_blank" rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1bbohBKKBNq4P51sFo4c3ljrjWSqMhg4c/view?usp=sharing" target="_blank" rel="noopener noreferrer"
             
            
             className="inline-flex items-center gap-2 mt-2 text-sm font-semibold tracking-wide uppercase px-6 py-3 bg-amber text-primary-foreground rounded-sm hover:bg-amber-hover transition-colors duration-200 active:scale-[0.97]"
